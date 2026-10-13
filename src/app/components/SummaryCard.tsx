@@ -4,10 +4,10 @@ type SummaryCardProps = {
   };
   export function SummaryCard(props: SummaryCardProps) {
     return (
-      <div>
-        <h2> {props.title}</h2>
-        <p> {props.value}</p>
-      </div>
+      <div className = "bg-white rounded-xl shadow-md p-6">
+        <h2 className = "text-sm text-gray-500"> {props.title}</h2>
+        <p className = "text-2xl font-bold text-gray-900"> {props.value}</p>
+      </div> 
   
     ); 
   }
